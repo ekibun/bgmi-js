@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./built/",
+        "sourceMap": true,
+        "noImplicitReturns": true,
+        "module": "es2015",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "target": "es2015",
+        "baseUrl": ".",
+        "paths": {
+            "@web/*": ["src/web/*"],
+            "@common/*": ["src/common/*"],
+            "@api/*": ["src/api/*"]
+        }
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
