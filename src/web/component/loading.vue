@@ -3,7 +3,7 @@
  * @Author: ekibun
  * @Date: 2019-07-12 11:13:45
  * @LastEditors: ekibun
- * @LastEditTime: 2019-07-14 08:34:51
+ * @LastEditTime: 2019-07-17 16:33:47
  -->
 <template>
     <div class="loading">
@@ -24,7 +24,6 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-@import "theme";
 
 .loading {
     position: absolute;
@@ -57,7 +56,7 @@ export default Vue.extend({
     display: inline-block;
     position: absolute;
     top: 0;
-    background-color: $color-brand;
+    background-color: #888;
     border-radius: 100%;
 
     animation: bounce 2s infinite ease-in-out;

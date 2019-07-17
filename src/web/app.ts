@@ -4,7 +4,7 @@
  * @Author: ekibun
  * @Date: 2019-06-28 10:12:39
  * @LastEditors: ekibun
- * @LastEditTime: 2019-07-03 16:37:21
+ * @LastEditTime: 2019-07-17 15:07:54
  */
 import Vue from 'vue'
 import App from '@web/App.vue'
@@ -12,8 +12,8 @@ import { createStore } from '@web/store'
 import { createRouter } from '@web/router'
 import { createI18n } from '@web/i18n'
 import { sync } from 'vuex-router-sync'
-import feather from 'vue-icon'
-Vue.use(feather, 'v-icon')
+import VueMaterial from 'vue-material'
+Vue.use(VueMaterial)
 
 // Expose a factory function that creates a fresh set of store, router,
 // app instances on each call (which is called for each SSR request)
